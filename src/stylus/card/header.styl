@@ -1,14 +1,23 @@
 .card__tag
-    margin-top: 20px
-    margin-bottom: 5px
+    margin-top: 1.25rem
+    margin-bottom: 0.3125rem
     text-transform: uppercase
     letter-spacing: 0.25rem
     color: veryDarkBlue
     font-weight: 500
-    font-size: font-size-medium
+    font-size: font-size--medium
 .card__title
-    margin-bottom: 15px
+    margin-bottom: 0.9375rem
     font-family: font-stack--second
     font-size: font-size--big
     font-weight: 700
     width 85%
+
+@media (min-width: 800px) and (min-height: 1030px)
+    .card__tag
+        margin-top: 0
+        margin-bottom: 25px
+    .card__title
+        font-size: font-size-desktop--big
+        font-weight: 800
+        line-height: 2.3125rem
